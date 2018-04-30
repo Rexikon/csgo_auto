@@ -40,3 +40,13 @@ cd ~ & git init .
 git remote add origin https://github.com/Rexikon/csgo_auto
 
 git pull origin master
+
+# usage
+
+from your home dir (cd ~)
+
+bash make_server.sh
+
+bash remove_server.sh
+
+./yourservername
