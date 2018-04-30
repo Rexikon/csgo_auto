@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #make_server
+#author          :Rexikon
+
 
 if [ "$#" -ne 1 ]; then
         echo "Make server"
