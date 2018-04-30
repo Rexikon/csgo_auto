@@ -50,3 +50,5 @@ bash make_server.sh
 bash remove_server.sh
 
 ./yourservername
+
+for update one instance init a update scipt by ./yoursevername create
