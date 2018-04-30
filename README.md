@@ -11,6 +11,7 @@ apt-get install screen
 
 apt-get install git
 
+apt-get install -y libc6-i386 lib32stdc++6 
 
 adduser csgomain 
 
