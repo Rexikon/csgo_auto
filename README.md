@@ -27,9 +27,15 @@ cd ~/csgo && ./steamcmd.sh
 
  force_install_dir /home/csgomain/csgo/csgo
 
+ app_update 740 validate
+
  ....
 
  quit
 
 
-cd ~ | wget 
+cd ~ & git init . 
+
+git remote add origin https://github.com/Rexikon/csgo_auto
+
+git pull origin master
