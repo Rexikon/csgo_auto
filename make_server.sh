@@ -23,13 +23,13 @@ rcon_password \"$rcon_password\"
 mp_autoteambalance 1
 mp_limitteams 1
 writeid
-writeip " > csgo/csgo/cfg/server.cfg
+writeip " > csgo/csgo/csgo/cfg/server.cfg
 
 
 
 mkdir /home/csgomain/servers/$server_name
 
-cp -R /home/csgomain/csgo/* /home/csgomain/servers/$server_name
+cp -R /home/csgomain/csgo/csgo/* /home/csgomain/servers/$server_name
 cp /home/csgomain/launcher_sample.conf /home/csgomain/servers/$server_name/launcher.conf
 cp /home/csgomain/csgo-server-launcher.sh /home/csgomain/servers/$server_name/launcher.sh
 ln -s /home/csgomain/servers/$server_name/launcher.sh /home/csgomain/$server_name
